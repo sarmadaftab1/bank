@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>pictogram/Small./Saving48</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="pictogram/Small./Saving48" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Bounding-Box" x="0" y="0" width="48" height="48"></rect>
+        <g id="pictogramSavings48" transform="translate(3.000000, 4.000000)" stroke="#4F4C4D" stroke-width="1.5">
+            <path d="M14,0.788596668 L6.23453196,3.31175019 L1.43520877,9.91745185 L1.43520877,18.0825481 L6.23453196,24.6882498 L14,27.2114033 L21.765468,24.6882498 L26.5647912,18.0825481 L26.5647912,9.91745185 L21.765468,3.31175019 L14,0.788596668 Z" id="50c" fill="#FFFFFF"></path>
+            <circle id="20c" fill="#FFFFFF" cx="30" cy="23" r="10.25"></circle>
+            <g id="dollar" transform="translate(4.250000, 20.500000)">
+                <circle id="Focus" fill="#FFCC00" cx="10" cy="10" r="9.25"></circle>
+                <g id="$" transform="translate(7.750000, 4.750000)" stroke-linecap="square">
+                    <path d="M2.24839783,1.5 L2.24839783,0" id="Path"></path>
+                    <path d="M2.25,10.5 L2.25,9" id="Path"></path>
+                    <path d="M3.75,1.5 C2.69035594,1.5 2.56535594,1.5 1.875,1.5 C0.839466094,1.5 0,2.33946609 0,3.375 C0,4.41053391 0.839466094,5.25 1.875,5.25 L2.625,5.25 C3.66053391,5.25 4.5,6.08946609 4.5,7.125 C4.5,8.16053391 3.66053391,9 2.625,9 C1.93464406,9 1.80964406,9 0.75,9" id="Oval-2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

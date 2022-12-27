@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> 
+    <title>Document</title>
+    <style>
+        /* width */
+        ::-webkit-scrollbar {
+          width: 10px;
+        }
+        
+        /* Track */
+        ::-webkit-scrollbar-track {
+          background: #f1f1f1; 
+        }
+         
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+          background: #888; 
+        }
+        
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+          background: #555; 
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="ful">
+                <li><a id="home" href="#">Print</a></li>
+                <li><a class="active" href="#">NetBank</a></li>
+                <li><a href="#">CommSec</a></li>
+                <div class="newright">
+                    <li>
+                        <form class="example" action="action_page.php">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                            <input type="text" placeholder="Search.." name="search">
+                        </form>
+                    </li>
+                    <li><a href="#">Help</a></li>
+                    <li><a class="active" href="index.html">Log off</a></li>
+                </div>
+              </ul>
+        </nav>
+    </header>
+
+    <nav>
+        <ul class="sul" >
+            <li>
+                <img style="margin: 0 150px 0 0;" src="images/download.svg" alt="logo">
+            </li>
+            <li><a class="activeHome" href="">My Home</a></li>
+            <li><a href="">View accounts</a></li>
+            <li><a href="">Transfer & BPAY</a></li>
+            <li><a href="">Offers & apply</a></li>
+            <li><a href="">Settings</a></li>
+            <li><a href="">Inbox</a></li>
+        </ul>
+    </nav>
+
+    <div class="firstDiv">
+        <h2>Good afternoon Koustubh</h2>
+    </div>
+    <div class="secDiv">
+        <table class="table">
+        <tbody>
+          <tr>
+            <td style="width: 5%;"><img src="images/pictogramAccounts48.5eff4aac.svg" alt="accounts"></td>
+            <td><h5>Smart Access</h5><span class="sm">062-948 3240 0353</span> </td>
+            <td> <span class="sm">Balance</span> <p class="para">$0.00</p></td>
+            <td> <span class="sm">Available</span> <h5>$0.00</h5></td>
+            <td><i class="fas fa-ellipsis-h"></i> </td>
+          </tr>
+          <tr>
+            <td><img src="images/pictogramSaving48.d8462dff.svg" alt="accounts"></td>
+            <td><h5>NetBank Saver</h5><span class="sm"">062-948 3240 0361</span></td>
+            <td> <span class="sm">Balance</span> <p class="para">$595000.00</p></td>
+            <td> <span class="sm">Available</span> <h5>$595000.00</h5></td>
+            <td><i class="fas fa-ellipsis-h"></i> </td>
+          </tr>
+          <tr>
+            <td><img src="images//pictogramShares48.10f400ad.svg" alt="accounts"></td>
+            <td><h5>CDIA</h5><span class="sm"">067-167 3295 1745</span></td>
+            <td><span class="sm">Balance</span><p class="para">$0.00</p></td>
+            <td> <span class="sm">Available</span><h5>$0.00</h5></td>
+            <td><i class="fas fa-ellipsis-h"></i></td>
+          </tr>
+          <tr>
+            <td><img src="images/pictogramShares48.10f400ad.svg" alt="accounts"></td>
+            <td><h5>CommSec Shares</h5><span class="sm">4815 863</span></td>
+            <td> <span class="sm">Balance</span> <p class="para">$0.00</p></td>
+            <td></td>
+            <td><i class="fas fa-ellipsis-h"></i></td>
+          </tr>
+          <tr>
+            <td colspan="3"><a style="font-size: 14px; padding-left: 20px; color:blue; text-decoration: none;" href="">Apply for a new Product</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tr style="border-bottom: 0;">
+            <td style="padding-left: 60px;" colspan="2" ><span class="sm">Total Credits </span> <p style="font-weight: bold;" class="para">$115000.00</p></td>
+            <td style="text-align: center;" ><span class="sm">Total debits</span>  <p style="font-weight: bold;" class="para">$71000.00</p></td>
+            <td style="text-align: right; padding-right: 60px;"><span class="sm">Net position</span>  <p style="font-weight: bold;" class="para">$595000.00</p></td>
+          </tr>
+      </table>
+    </table>
+    </div>
+    <div class="bill">
+        <div class="billchild">
+            <h4 style="margin: 1px 0; padding: 15px 0; display: block;">Bills & upcoming payments <img style="margin: 0; float: right;" src="images/billss.svg" alt=""></h4> 
+            <p style="color: rgb(114, 112, 112);"class="para">No payments due in the next 7 days</p>
+        </div>
+        <a style="font-size: 13px; padding: 0 0 20px 20px; color:blue; text-decoration: none;" href="">View all</a>
+    </div>
+    <div class="quickPay">
+        <div class="billchild">
+            <h4 style="margin: 1px 0; padding: 15px 0; display: block;">Quick pay <img style="margin: 0; float: right;" src="images/pay.svg" alt=""></h4> 
+        </div>
+        <div class="payChild">
+            <h5>From</h5>
+            <select class="select" name="drop" id="drop">
+                <option value="select">Select account</option>
+            </select>
+            <h5>To</h5>
+            <select class="select" name="drop" id="drop">
+                <option value="select">Select account</option>
+            </select>
+            <h5>Amount</h5>
+            <input class="select" type="text" value="$">
+        </div>
+    </div>
+
+    <div class="feedback">
+        <div class="billchild">
+            <img style="float: left;" src="images/feedback.svg" alt=""><h3 style="margin: 1px 0; padding: 15px 0; display: block;">Want to give a feedback on NetBank homepage?</h3>
+            <p style="color: rgb(114, 112, 112);"class="para">Your feedback will help us improve the experience</p>
+        </div>
+        <a style="font-size: 13px; padding: 20px 0 20px 20px; margin-top: 30px; color:blue; text-decoration: none;" href="">Give feedback</a>
+    </div>
+    
+    <div class="footer">
+        <div class="upper">
+            <a href="">Tools & calculators</a>
+            <a href="">Find a branch</a>
+            <a href="">Financial assistance</a>
+            <a href="">Contact us</a> <br>
+        </div>
+        <div class="mid">
+            <a href="">Important information</a>
+            <a href="">Privacy</a>
+            <a href="">Cookies</a>
+            <a href="">Terms of use</a> <br>
+        </div>
+        <div class="lower">
+            <span style="color:rgb(114, 112, 112); font-size: small;">© 2022 Commonwealth Bank of Australia ABN 48 123 123 124 AFSL and Australian credit licence 234945</span>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,337 @@
+/*Index Page CSS*/
+body{
+    background-color: rgb(235, 229, 229);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.body{
+    width: 560px;
+    margin: 0 auto;
+    background-color: white;
+    height: 100%;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.ad{
+    display: flex;
+    justify-content: center;
+}
+.arrow {
+    border: solid hsl(46, 100%, 50%);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+  
+.r {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.align-right{
+    display: block;
+    text-align: right;
+    margin-right: 15px;
+}
+
+.left{
+    width: 60%;
+    margin: 15px;
+    background-color:rgb(247, 244, 244);
+    font-size: small;
+}
+.left> h3{
+    padding: 12px;
+    margin:0;
+    width: auto;
+    background-color: gray;
+    color: white;
+}
+.right{
+    width: 40%;
+    font-size: small;
+}
+.up{
+    margin: 15px 15px 15px 5px;
+    background-color:rgb(247, 244, 244);
+    padding-bottom: 10px;
+}
+
+.down{
+    margin: 15px 15px 15px 5px;
+    background-color:rgb(247, 244, 244);
+    padding: 5px 0;
+}
+.up> h3{
+    padding: 12px;
+    margin:0;
+    width: auto;
+    background-color: gray;
+    color: white;
+}
+.btn1 {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border: 0;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 15px;
+    background: hsl(46, 100%, 50%);
+    padding: 6px 20px 6px 20px;
+    margin: 15px 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+.one{
+    margin: 20px 0;
+}
+.two{
+    margin: 15px 20px 15px 20px;
+}
+
+a{
+    color: #000000;
+}
+h5{
+    margin: 0;
+}
+.discript{
+    padding: 0 10px 10px 10px;
+}
+.ad{
+    padding: 10px;
+    margin: 15px;
+    background-color:rgb(247, 244, 244);
+}
+.imageDiv{
+    padding: 0 10px;
+}
+.quickLinks{
+    padding: 10px;
+    margin: 15px;
+}
+.in{
+    border-top: 1px solid hsl(46, 100%, 50%);
+    padding: 10px 0;
+    margin: 10px 0;
+}
+.in>a{
+    font-size: 13px;
+}
+footer{
+    font-size: x-small;
+    border-top: 1px solid rgb(218, 216, 216);
+    padding: 5px 0;
+}
+footer> a{
+    padding-right: 2px;
+    border-right: 2px solid rgb(218, 216, 216)  ;
+}
+
+
+/*Main Page CSS*/
+.ful {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 13%;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.ful li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    color: hsl(46, 100%, 50%);
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  background: white;
+  border-radius: 8px;
+  color: rgb(201, 199, 199);;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  padding: 10px;
+  background: white;
+  color: rgb(201, 199, 199);;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+form.example button:hover {
+  background: hsl(46, 100%, 50%);
+  color: #000000;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.active{
+    background-color: hsl(46, 100%, 50%);
+    color: #000000;
+}
+.active:hover{
+    color: white;
+}
+
+.newright{
+    margin-left: 50%;
+}
+.sul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 15%;
+    overflow: hidden;
+    background-color: rgb(235, 229, 229);
+    
+}
+.sul li{
+    float:left;
+    border-right: 1px solid rgb(201, 199, 199);
+}
+.sul li a{
+    color: rgb(49, 49, 49);
+    height: 40px;
+    padding-top: 35px;
+}
+.activeHome{
+    background-color: rgb(243, 238, 238);
+}
+.sul li img{
+    padding: 23px 0;
+    height: 40px;
+}
+
+.firstDiv{
+    background-color: hsl(46, 100%, 50%);
+    width: 100%;
+    height: 200px;
+}
+.firstDiv>h2{
+    margin-top: 0;
+    padding: 40px 0 0 15%;
+}
+.secDiv{
+    position: absolute;
+    top: 250px;
+    margin-left: 15%;
+    width: auto;
+    background-color: white;
+    border: 1px solid rgb(196, 193, 193);
+    border-radius: 5px;
+}
+table{
+    border-collapse: collapse;
+    width: 800px;
+}
+tr{
+    border-bottom: solid thin rgb(196, 193, 193);
+}
+.bill{
+    position: absolute;
+    top: 250px;
+    right: 15%;
+    float: right;
+    background-color: white;
+    border-radius: 5px;
+    width: 330px;
+    height: 150px;
+}
+.quickPay{
+    position: absolute;
+    top: 440px;
+    right: 15%;
+    width: 330px;
+    float: right;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.sm{
+    font-size: 15px; 
+    color: rgb(114, 112, 112);
+}
+.para{
+    margin: 0;
+    font-size: small;
+}
+td{
+    padding: 20px;
+}
+
+.feedback{
+    position: relative;
+    top: 500px;
+    left: 15%;
+    background-color: white;
+    width: 800px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.billchild, .payChild{
+    padding: 20px;
+}
+.select{
+    width: 285px;
+    height: 40px;
+    margin: 7px 0 20px 0;
+}
+
+.footer{
+    position: relative;
+    top: 580px;
+    height: 300px;
+    background-color: white;
+}
+.upper{
+    position: absolute;
+    margin: 70px 0 30px 300px;
+}
+.mid{
+    position: absolute;
+    margin: 140px 0 30px 300px;
+}
+.lower{
+    position: absolute;
+    margin: 210px 0 30px 300px;
+}
+.upper a{
+    font-size: 15px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+}
+.mid a{
+    font-size: small;
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(114, 112, 112);
+}
