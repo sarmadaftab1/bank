@@ -96,6 +96,10 @@ main{
 a{
     color: #000000;
 }
+h4{
+    margin: 0;
+    padding: 10px 0 0 0;
+}
 h5{
     margin: 0;
 }
@@ -280,7 +284,8 @@ tr{
 }
 .para{
     margin: 0;
-    font-size: small;
+    font-size: medium;
+    padding: 10px 0 0 0;
 }
 td{
     padding: 20px;
